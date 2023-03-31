@@ -1,0 +1,58 @@
+.logo {
+  font-weight: 700;
+}
+
+.header {
+  width: 100%;
+  padding: 15px 0;
+  background: transparent;
+  transition:1s all ease;
+}
+.header .logo {
+  font-size: 38px;
+}
+.header .navbar {
+  width: 40%;
+}
+.header .a, .header .button {
+  color: white;
+  display: block;
+}
+.header .user-action-item {
+  position: relative;
+  margin-left: 8px;
+}
+.header .user-action-item .quanlity {
+  position: absolute;
+  top: -3px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  color: orange;
+}
+
+.header .btn-user-action {
+  color: var(--color-base-text);
+  display: block;
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+
+.header .btn-user-action span {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .btn-user-action svg {
+  width: 20px;
+  height: 20px;
+}
+
+.header .btn-user-action .icon-cart {
+  width: 40px;
+  height: 40px;
+}

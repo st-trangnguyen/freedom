@@ -1,4 +1,32 @@
 /* Color custom properties */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'ヒラギノ角ゴ ProN W3', 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', 'Yu Gothic Medium', '游ゴシック Medium', 'YuGothic', '游ゴシック体', 'メイリオ', Arial, sans-serif;
+  color: #333333;
+  background: #ffffff;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+ol, ul {
+	list-style: none;
+}
 
 :root,
 .color-background-1 {
@@ -2294,7 +2322,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 /* Main Header Layout */
-.header-wrapper {
+/* .header-wrapper {
   display: block;
   position: relative;
   background-color: rgb(var(--color-background));
@@ -2456,10 +2484,10 @@ product-info .loading-overlay:not(.hidden) ~ *,
     justify-self: center;
     text-align: center;
   }
-}
+} */
 
 /* Header icons */
-.header__icons {
+/* .header__icons {
   display: flex;
   grid-area: icons;
   justify-self: end;
@@ -2523,7 +2551,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   display: block;
   position: absolute;
   background: rgba(var(--color-foreground), 0.5);
-}
+} */
 
 /* Search */
 menu-drawer + .header__search {

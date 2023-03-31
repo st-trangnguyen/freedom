@@ -1,0 +1,21 @@
+.btn {
+  border-radius: 0;
+  border-width: 1px;
+  border-style: solid;
+  padding: 12px;
+  color: white;
+  cursor: pointer;
+}
+.btn.btn-primary {
+  background-color: var(--color-base-text);
+  border-color: var(--color-base-text);
+}
+.btn.btn-primary:hover {
+  background-color: rgba(var(--color-base-text), 0.8);;
+  border-color: rgba(var(--color-base-text), 0.8);;
+}
+.btn.btn-has-icon {
+  width: auto;
+  border: none;
+  background: transparent;
+}
